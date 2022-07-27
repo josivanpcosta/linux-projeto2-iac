@@ -1,0 +1,22 @@
+2022-07-27T20:26:50.679-03:00| authdlauncher| I005: Log for VMware Authentication Daemon Launcher pid=62460 version=15.5.6 build=build-16341506 option=Release
+2022-07-27T20:26:50.679-03:00| authdlauncher| I005: The process is 64-bit.
+2022-07-27T20:26:50.679-03:00| authdlauncher| I005: Host codepage=UTF-8 encoding=UTF-8
+2022-07-27T20:26:50.679-03:00| authdlauncher| I005: Host is Linux 5.16.0-1-amd64 Kali GNU/Linux Rolling
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: Could not expand environment variable HOME.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: Could not expand environment variable HOME.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: DictionaryLoad: Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: [msg.dictionary.load.openFailed] Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: PREF Optional preferences file not found at /usr/lib/vmware/settings. Using default values.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: [msg.dictionary.load.openFailed] Cannot open file "~/.vmware/config": No such file or directory.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: PREF Optional preferences file not found at ~/.vmware/config. Using default values.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: [msg.dictionary.load.openFailed] Cannot open file "~/.vmware/preferences": No such file or directory.
+2022-07-27T20:26:50.678-03:00| authdlauncher| I005: PREF Optional preferences file not found at ~/.vmware/preferences. Using default values.
+2022-07-27T20:26:51.094-03:00| authdlauncher| I005: SOCKET 1 (10) creating new listening socket on port 902
+2022-07-27T20:26:51.094-03:00| authdlauncher| W003: SOCKET Could not bind socket, error 98: Address already in use
+2022-07-27T20:26:51.094-03:00| authdlauncher| I005: SOCKET Could not create IPv6 listener socket, error 11: Socket bind address already in use
+2022-07-27T20:26:51.094-03:00| authdlauncher| I005: SOCKET 2 (10) creating new listening socket on port 902
+2022-07-27T20:26:51.094-03:00| authdlauncher| W003: SOCKET Could not bind socket, error 98: Address already in use
+2022-07-27T20:26:51.094-03:00| authdlauncher| I005: SOCKET Could not create IPv4 listener socket, error 11: Socket bind address already in use
+2022-07-27T20:26:51.094-03:00| authdlauncher| I005: failed to listen on port 902, error 11: Resource temporarily unavailable... Exiting.

@@ -1,0 +1,73 @@
+2022-07-27T11:47:04.770-03:00| appLoader| I005: Log for appLoader pid=2505 version=15.5.6 build=build-16341506 option=Release
+2022-07-27T11:47:04.770-03:00| appLoader| I005: The process is 64-bit.
+2022-07-27T11:47:04.770-03:00| appLoader| I005: Host codepage=UTF-8 encoding=UTF-8
+2022-07-27T11:47:04.770-03:00| appLoader| I005: Host is Linux 5.16.0-1-amd64 Kali GNU/Linux Rolling
+2022-07-27T11:47:04.918-03:00| appLoader| I005: Invocation: "/usr/lib/vmware/bin/vmware-vmblock-fuse
+2022-07-27T11:47:04.918-03:00| appLoader| I005:  -o
+2022-07-27T11:47:04.918-03:00| appLoader| I005:  subtype=vmware-vmblock,default_permissions,allow_other
+2022-07-27T11:47:04.918-03:00| appLoader| I005:  /var/run/vmblock-fuse
+2022-07-27T11:47:04.918-03:00| appLoader| I005: "
+2022-07-27T11:47:04.918-03:00| appLoader| I005: Calling: "/usr/lib/vmware/bin/vmware-vmblock-fuse
+2022-07-27T11:47:04.918-03:00| appLoader| I005:  -o
+2022-07-27T11:47:04.918-03:00| appLoader| I005:  subtype=vmware-vmblock,default_permissions,allow_other
+2022-07-27T11:47:04.918-03:00| appLoader| I005:  /var/run/vmblock-fuse
+2022-07-27T11:47:04.918-03:00| appLoader| I005: "
+2022-07-27T11:47:04.918-03:00| appLoader| I005: VMDEVEL not set.
+2022-07-27T11:47:04.918-03:00| appLoader| I005: Using configuration file: /etc/vmware/config
+2022-07-27T11:47:04.918-03:00| appLoader| I005: Use library directory: /usr/lib/vmware
+2022-07-27T11:47:07.479-03:00| appLoader| I005: Setup root library: /usr/lib/vmware/lib/libvmware-vmblock-fuse.so/libvmware-vmblock-fuse.so
+2022-07-27T11:47:07.479-03:00| appLoader| I005: Execute ldd(1) in child process 2514.
+2022-07-27T11:47:08.134-03:00| appLoader| I005: Initial check: (376)
+2022-07-27T11:47:08.134-03:00| appLoader| I005+ 	linux-vdso.so.1 (0x00007ffee9b78000)
+2022-07-27T11:47:08.134-03:00| appLoader| I005+ 	libfuse.so.2 => /lib/x86_64-linux-gnu/libfuse.so.2 (0x00007fd34a8d8000)
+2022-07-27T11:47:08.134-03:00| appLoader| I005+ 	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fd34a8b7000)
+2022-07-27T11:47:08.134-03:00| appLoader| I005+ 	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fd34a6de000)
+2022-07-27T11:47:08.134-03:00| appLoader| I005+ 	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007fd34a6d6000)
+2022-07-27T11:47:08.134-03:00| appLoader| I005+ 	/lib64/ld-linux-x86-64.so.2 (0x00007fd34ab40000)
+2022-07-27T11:47:08.134-03:00| appLoader| I005+ 
+2022-07-27T11:47:08.915-03:00| appLoader| I005: Execute ldd(1) in child process 2518.
+2022-07-27T11:47:08.922-03:00| appLoader| I005: Final check: (376)
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 	linux-vdso.so.1 (0x00007ffe1e786000)
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 	libfuse.so.2 => /lib/x86_64-linux-gnu/libfuse.so.2 (0x00007f203567e000)
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f203565d000)
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2035484000)
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f203547c000)
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 	/lib64/ld-linux-x86-64.so.2 (0x00007f20358e6000)
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 
+2022-07-27T11:47:08.922-03:00| appLoader| I005: Setup LD_LIBRARY_PATH=
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmplayer.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-app-control.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-enter-serial.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-fuseUI.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-gksu.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-modconfig.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-netcfg.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-zenity.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/liblicenseTool.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-modconfig-console.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-setup-helper.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmware-mount.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libbasichttp.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libcds.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libgvmomi.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmwarebase.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvmwareui.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libvnetlib.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libsvga3dsw.so
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libcrypto.so.1.0.2
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libcurl.so.4
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ /usr/lib/vmware/lib/libssl.so.1.0.2
+2022-07-27T11:47:08.922-03:00| appLoader| I005+ 
+2022-07-27T11:47:08.933-03:00| appLoader| I005: Invocation: "/usr/lib/vmware/bin/vmware-vmblock-fuse
+2022-07-27T11:47:08.933-03:00| appLoader| I005:  -o
+2022-07-27T11:47:08.933-03:00| appLoader| I005:  subtype=vmware-vmblock,default_permissions,allow_other
+2022-07-27T11:47:08.933-03:00| appLoader| I005:  /var/run/vmblock-fuse
+2022-07-27T11:47:08.933-03:00| appLoader| I005: "
+2022-07-27T11:47:08.933-03:00| appLoader| I005: Calling: "/usr/lib/vmware/bin/vmware-vmblock-fuse
+2022-07-27T11:47:08.933-03:00| appLoader| I005:  -o
+2022-07-27T11:47:08.933-03:00| appLoader| I005:  subtype=vmware-vmblock,default_permissions,allow_other
+2022-07-27T11:47:08.933-03:00| appLoader| I005:  /var/run/vmblock-fuse
+2022-07-27T11:47:08.933-03:00| appLoader| I005: "
+2022-07-27T11:47:08.933-03:00| appLoader| I005: VMDEVEL not set.
+2022-07-27T11:47:08.933-03:00| appLoader| I005: Using configuration file: /etc/vmware/config
+2022-07-27T11:47:08.934-03:00| appLoader| I005: Use library directory: /usr/lib/vmware
